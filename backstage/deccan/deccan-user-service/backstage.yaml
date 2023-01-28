@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deccan-user-service
+  title: deccan-user-service
+  description: deccan-user-service
+  tags:
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: deccan-billing-service
+  title: deccan-billing-service
+  description: deccan-billing-service
+  tags:
+    - java
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
