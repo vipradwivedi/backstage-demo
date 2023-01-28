@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: alpha-user-service
+  title: alpha-user-service
+  description: aplha-user-service
+  tags:
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental

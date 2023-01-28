@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: deccan
+spec:
+  type: url
+  targets:
+    - ./deccan-user-service/main.yaml
+    - ./deccan-billing-service/main.yaml

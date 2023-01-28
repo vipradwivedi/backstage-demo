@@ -2,9 +2,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: zeta
+  name: alpha
 spec:
   type: url
   targets:
-    - ./backstage/alpha/alpha.yaml
-    - ./backstage/deccan/deccan.yaml
+    - ./alpha-user-service/main.yaml
+    - ./alpha-billing-service/main.yaml
