@@ -6,6 +6,7 @@ metadata:
   description: aplha-billing-service
   tags:
     - java
+    - api
 spec:
   type: service
   owner: unknown
